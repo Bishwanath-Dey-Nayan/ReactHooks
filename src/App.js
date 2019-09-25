@@ -5,6 +5,7 @@ import HookCounter from './CounterHooks/index';
 import HookObject from './HookObject/index'
 import UseStateArray from './UseStateArray/index';
 import UseEffect from './UseEffect/index';
+import ConditionalUseEffect from './Conditional_UseEffect/index'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <HookCounter /> */}
       {/* <HookObject /> */}
       {/* UseStateArray */}
-      <UseEffect />
+      {/* <UseEffect /> */}
+      <ConditionalUseEffect/>
     </div>
   );
 }
