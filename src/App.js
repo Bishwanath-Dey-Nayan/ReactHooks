@@ -6,6 +6,8 @@ import HookObject from './HookObject/index'
 import UseStateArray from './UseStateArray/index';
 import UseEffect from './UseEffect/index';
 import ConditionalUseEffect from './Conditional_UseEffect/index'
+import HookMouse from './HookMouse/index'
+import DataFetch from './Fetch_Use_Effect/index'
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       {/* <HookObject /> */}
       {/* UseStateArray */}
       {/* <UseEffect /> */}
-      <ConditionalUseEffect/>
+      {/* <ConditionalUseEffect/> */}
+      {/* <HookMouse /> */}
+      <DataFetch />
     </div>
   );
 }
