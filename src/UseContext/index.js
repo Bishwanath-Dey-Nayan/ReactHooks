@@ -6,8 +6,8 @@ export const ChannelContext = React.createContext();
 function App1()
 {
     return(<div>
-        <UserContext.Provider >
-            <ChannelContext.Provider>
+        <UserContext.Provider value={"User Context"}>
+            <ChannelContext.Provider value={"Channel Context"}>
                 <ComponentC />
             </ChannelContext.Provider>
         </UserContext.Provider>
