@@ -10,6 +10,7 @@ import HookMouse from './HookMouse/index'
 import DataFetch from './Fetch_Use_Effect/index'
 import UseReducer from './useReducer/index';
 import ParentComponent from './useCallback/index';
+import CustomHook from './CustomHook/index';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <HookMouse /> */}
       {/* <DataFetch /> */}
       {/* <UseReducer /> */}
-      <ParentComponent />
+      {/* <ParentComponent /> */}
+      <CustomHook />
     </div>
   );
 }
